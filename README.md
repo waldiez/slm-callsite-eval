@@ -145,14 +145,14 @@ prompts are condensed variants that keep the output contract scoring depends on.
 
 ## Privacy
 
-The benchmark is grounded in two installations in an occupied home, so some
-material is withheld or redacted:
+The benchmark is grounded in two live installations, a household and an
+office, so some material is withheld or redacted:
 
 - Device registries are not shipped. They carry network and location
   identifiers.
 - `actuator_b_keys.jsonl` (14 cases, site B) and `crosssite_keys.jsonl`
   (32 cases) ship as keys only: case id and answer key, with the prompt
-  removed, because their device payloads describe a resident's phone and the
+  removed, because their device payloads describe a person's phone and the
   building's network. Every scoring table reproduces from the keys alone,
   since scoring compares the emitted action set against the key and never reads
   the prompt. What the keys do not permit is re-running a model on those 46
