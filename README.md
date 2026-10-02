@@ -20,8 +20,6 @@ v0.5.3 when re-running (see `requirements.txt`).
 Nine models, five call sites, 280 cases, one pass at temperature 0. All
 numbers below are generated from `results/` by the scripts in `harness/`.
 
-![Accuracy per call site](figures/per_site_accuracy.png)
-
 | Model | Intent | HA action | Actuator | Planner | Codegen | All | Cost ($) |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | | *n=36* | *n=28* | *n=116* | *n=50* | *n=50* | *n=280* | |
