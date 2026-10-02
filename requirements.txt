@@ -1,0 +1,5 @@
+# Only needed to RE-RUN models or regenerate cases. Reproducing the paper's
+# tables from results/ needs nothing beyond the Python 3.10+ standard library.
+#
+# Pinned to the release whose production prompts the paper evaluates.
+wactorz==0.5.3

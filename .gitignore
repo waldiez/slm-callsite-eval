@@ -1,0 +1,4 @@
+tables/
+__pycache__/
+*.pyc
+.venv/

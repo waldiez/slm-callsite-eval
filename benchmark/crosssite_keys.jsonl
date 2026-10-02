@@ -1,0 +1,32 @@
+{"id": "actuator-a_flip-001", "category": "actuator", "expected": [{"domain": "media_player", "service": "turn_off", "entity_id_any": ["media_player.samsung_7_series_55_ue55nu7023", "media_player.tv_samsung_7_series_55"]}]}
+{"id": "actuator-b_flip-001", "category": "actuator", "expected": []}
+{"id": "actuator-a_flip-002", "category": "actuator", "expected": [{"domain": "media_player", "service": "turn_on", "entity_id_any": ["media_player.samsung_7_series_55_ue55nu7023", "media_player.tv_samsung_7_series_55"]}]}
+{"id": "actuator-b_flip-002", "category": "actuator", "expected": []}
+{"id": "actuator-a_flip-003", "category": "actuator", "expected": [{"domain": "light", "service": "turn_on", "entity_id": "light.philips_hue_lct015"}]}
+{"id": "actuator-b_flip-003", "category": "actuator", "expected": []}
+{"id": "actuator-a_flip-004", "category": "actuator", "expected": [{"domain": "light", "service": "turn_off", "entity_id": "light.philips_hue_lct015"}]}
+{"id": "actuator-b_flip-004", "category": "actuator", "expected": []}
+{"id": "actuator-a_flip-005", "category": "actuator", "expected": [{"domain": "switch", "service": "turn_on", "entity_id": "switch.living_room_record"}]}
+{"id": "actuator-b_flip-005", "category": "actuator", "expected": []}
+{"id": "actuator-a_flip-006", "category": "actuator", "expected": []}
+{"id": "actuator-b_flip-006", "category": "actuator", "expected": [{"domain": "lock", "service": "lock", "entity_id": "lock.office_door"}]}
+{"id": "actuator-a_flip-007", "category": "actuator", "expected": []}
+{"id": "actuator-b_flip-007", "category": "actuator", "expected": [{"domain": "lock", "service": "unlock", "entity_id": "lock.office_door"}]}
+{"id": "actuator-a_same-008", "category": "actuator", "expected": [{"domain": "light", "service": "turn_on", "entity_id": "light.wiz_rgbw_tunable_351b6e"}]}
+{"id": "actuator-b_same-008", "category": "actuator", "expected": [{"domain": "light", "service": "turn_on", "entity_id": "light.wiz_rgbw_tunable_2f982a"}]}
+{"id": "actuator-a_same-009", "category": "actuator", "expected": [{"domain": "light", "service": "turn_off", "entity_id": "light.wiz_rgbw_tunable_351b6e"}]}
+{"id": "actuator-b_same-009", "category": "actuator", "expected": [{"domain": "light", "service": "turn_off", "entity_id": "light.wiz_rgbw_tunable_2f982a"}]}
+{"id": "actuator-a_same-010", "category": "actuator", "expected": [{"domain": "light", "service": "turn_on", "entity_id": "light.wiz_rgbw_tunable_351b6e"}]}
+{"id": "actuator-b_same-010", "category": "actuator", "expected": [{"domain": "light", "service": "turn_on", "entity_id": "light.wiz_rgbw_tunable_2f982a"}]}
+{"id": "actuator-a_nearmiss-011", "category": "actuator", "expected": []}
+{"id": "actuator-b_nearmiss-011", "category": "actuator", "expected": []}
+{"id": "actuator-a_nearmiss-012", "category": "actuator", "expected": []}
+{"id": "actuator-b_nearmiss-012", "category": "actuator", "expected": []}
+{"id": "actuator-a_nearmiss-013", "category": "actuator", "expected": []}
+{"id": "actuator-b_nearmiss-013", "category": "actuator", "expected": []}
+{"id": "actuator-a_nearmiss-014", "category": "actuator", "expected": []}
+{"id": "actuator-b_nearmiss-014", "category": "actuator", "expected": []}
+{"id": "actuator-a_nearmiss-015", "category": "actuator", "expected": []}
+{"id": "actuator-b_nearmiss-015", "category": "actuator", "expected": []}
+{"id": "actuator-a_nearmiss-016", "category": "actuator", "expected": []}
+{"id": "actuator-b_nearmiss-016", "category": "actuator", "expected": []}

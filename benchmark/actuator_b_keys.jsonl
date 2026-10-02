@@ -1,0 +1,14 @@
+{"id": "actuator-b_control-001", "category": "actuator", "expected": [{"domain": "light", "service": "turn_on", "entity_id": "light.home_assistant_connect_zwa_2_led"}]}
+{"id": "actuator-b_control-002", "category": "actuator", "expected": [{"domain": "light", "service": "turn_off", "entity_id": "light.home_assistant_connect_zwa_2_led"}]}
+{"id": "actuator-b_control-003", "category": "actuator", "expected": [{"domain": "switch", "service": "turn_on", "entity_id": "switch.smart_color_button_customer_function"}]}
+{"id": "actuator-b_control-004", "category": "actuator", "expected": [{"domain": "switch", "service": "turn_off", "entity_id": "switch.smart_color_button_customer_function"}]}
+{"id": "actuator-b_control-005", "category": "actuator", "expected": [{"domain": "light", "service": "turn_on", "entity_id": "light.wiz_rgbw_tunable_2f982a"}]}
+{"id": "actuator-b_control-006", "category": "actuator", "expected": [{"domain": "light", "service": "turn_off", "entity_id": "light.wiz_rgbw_tunable_2f982a"}]}
+{"id": "actuator-b_control-007", "category": "actuator", "expected": [{"domain": "lock", "service": "lock", "entity_id": "lock.office_door"}]}
+{"id": "actuator-b_control-008", "category": "actuator", "expected": [{"domain": "lock", "service": "unlock", "entity_id": "lock.office_door"}]}
+{"id": "actuator-b_refusal-009", "category": "actuator", "expected": []}
+{"id": "actuator-b_refusal-010", "category": "actuator", "expected": []}
+{"id": "actuator-b_refusal-011", "category": "actuator", "expected": []}
+{"id": "actuator-b_refusal-012", "category": "actuator", "expected": []}
+{"id": "actuator-b_refusal-013", "category": "actuator", "expected": []}
+{"id": "actuator-b_refusal-014", "category": "actuator", "expected": []}

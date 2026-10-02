@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or harness, please cite the paper below."
+title: "slm-callsite-eval: benchmark, harness and records for per-call-site SLM evaluation"
+authors:
+  - family-names: Kasnesis
+    given-names: Panagiotis
+  - family-names: Chatzigeorgiou
+    given-names: Christos
+  - family-names: Toumanidis
+    given-names: Lazaros
+  - family-names: Contiero Syropoulou
+    given-names: Amalia
+license: Apache-2.0
+repository-code: "https://github.com/waldiez/slm-callsite-eval"
+preferred-citation:
+  type: conference-paper
+  title: "Not Every Call Needs a Frontier Model: Per-Call-Site Evaluation of Small Language Models in a Deployed Agentic Home-Automation System"
+  authors:
+    - family-names: Kasnesis
+      given-names: Panagiotis
+    - family-names: Chatzigeorgiou
+      given-names: Christos
+    - family-names: Toumanidis
+      given-names: Lazaros
+    - family-names: Contiero Syropoulou
+      given-names: Amalia
+  collection-title: "1st Workshop on SLMs for Agentic Systems (SLM-Agents), NeurIPS 2026"
+  year: 2026
+  url: "https://openreview.net/forum?id=H5z1pZCS4E"
