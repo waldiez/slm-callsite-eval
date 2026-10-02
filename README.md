@@ -90,6 +90,7 @@ of the 39 impossible requests that produced at least one service call.
                  analyze_results.py        scoring
                  make_paper_tables.py      every table in the paper
                  make_figures.py           the README figures (needs matplotlib)
+                 check_entity_validity.py  over-actuations on real entities (footnote in §4)
     results/     final_scored.jsonl        2520 records: 9 models x 280 cases,
                                            one pass, temperature 0
                  e2e_user_eval.jsonl       46 live cases x 3 routing configs,
