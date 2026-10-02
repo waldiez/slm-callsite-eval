@@ -3,3 +3,6 @@
 #
 # Pinned to the release whose production prompts the paper evaluates.
 wactorz==0.5.3
+
+# Only for harness/make_figures.py
+matplotlib

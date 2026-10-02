@@ -43,6 +43,9 @@ DISPLAY = {
 }
 # Ascending capacity, hosted model last — the reading order of every table.
 ORDER = list(DISPLAY)
+# The small hosted model is reported below the rule, outside ORDER, but still
+# needs a display name.
+DISPLAY["anthropic:claude-haiku-4-5"] = "Claude Haiku 4.5"
 
 PLACEHOLDER = r"\ph"
 
