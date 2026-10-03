@@ -165,7 +165,7 @@ office, so some material is withheld or redacted:
 
 ## License
 
-Apache-2.0, matching Wactorz.
+Apache-2.0
 
 ## Acknowledgments
 
