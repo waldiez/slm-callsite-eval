@@ -7,7 +7,12 @@ Benchmark, evaluation harness and scored records for the paper
 > Panagiotis Kasnesis, Christos Chatzigeorgiou, Lazaros Toumanidis,
 > Amalia Contiero Syropoulou.
 > 1st Workshop on SLMs for Agentic Systems (SLM-Agents), NeurIPS 2026, Paris.
-> [OpenReview](https://openreview.net/forum?id=H5z1pZCS4E)
+> [OpenReview](https://openreview.net/forum?id=H5z1pZCS4E) ·
+> [arXiv](https://arxiv.org/abs/2610.09021) ·
+> [Paper page](https://huggingface.co/papers/2610.09021) ·
+> [Dataset on Hugging Face](https://huggingface.co/datasets/waldiez/slm-callsite-eval)
+
+[![Dataset on HF](https://huggingface.co/datasets/huggingface/badges/resolve/main/dataset-on-hf-md.svg)](https://huggingface.co/datasets/waldiez/slm-callsite-eval)
 
 The system under evaluation is [Wactorz](https://github.com/waldiez/wactorz),
 an open-source multi-agent home-automation framework. All experiments use the
@@ -74,6 +79,18 @@ drive hardware.
 of the 39 impossible requests that produced at least one service call.
 *Silent*: share of actionable requests answered with an empty action list.
 *Joint*: harmonic mean of execution accuracy and correct refusal.
+
+## Dataset on the Hugging Face Hub
+
+The benchmark cases, scored model outputs and end-to-end evaluation are also on
+the Hub, with one subset per call site:
+
+```python
+from datasets import load_dataset
+
+cases = load_dataset("waldiez/slm-callsite-eval", "cases", split="test")
+outputs = load_dataset("waldiez/slm-callsite-eval", "model_outputs", split="test")
+```
 
 ## Layout
 
